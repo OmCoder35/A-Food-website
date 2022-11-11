@@ -1,0 +1,55 @@
+/*navigation bar*/
+#navbar {
+    flex-direction: column;
+}
+#navbar ul a{
+    font-size: 13px;
+}
+
+/*CSS for home*/
+#home{
+    height: 380px;
+}
+#home::before {
+    height: 280px;
+}
+
+/*services*/
+
+#services {
+    flex-direction: column;
+}
+/* #primery-container h1 {
+    font-size: 27;
+} */
+section #secondery-heading{
+    font-size: 24px;
+}
+/*Sponsers*/
+section .secondhead{
+    font-size: 27px;
+}
+section #sponsers .png{
+    height: 40px;
+}
+section #logos1 {
+    width: 120px;
+}
+
+/*feedback*/
+section .primeryhead {
+    font-size: 27px;
+    color: white;
+    padding: 17px 10px;
+    /* text-shadow: 4px 4px 5px black; */
+  }
+  #home .para {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px 10px;
+}
+/*footer*/
+footer h3{
+    font-size: 10px;
+}
