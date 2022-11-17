@@ -2,9 +2,11 @@
 .center {
   text-align: center;
 }
-body{
+
+body {
   background-color: black;
 }
+
 .fontfam {
   font-family: "Josefin Sans", sans-serif;
 }
@@ -93,7 +95,7 @@ body{
 }
 
 #home::before {
-  background: url("./images/backg009.jpg") center center/cover no-repeat;
+  background: url("./images/backg0091.jpg") center center/cover no-repeat;
   content: "";
   position: absolute;
   top: 0;
@@ -109,7 +111,7 @@ section .para {
   font-size: 20px;
   text-align: center;
   padding: 20px 10px;
-  
+
 }
 
 section .btun01 {
@@ -141,7 +143,8 @@ section .btun01:hover {
   display: flex;
   position: relative;
 }
- /* .primery-container::before {
+
+/* .primery-container::before {
   background: url('backg008.jpg') center center/cover no-repeat; 
   background-color: white;
   position: absolute;
@@ -190,10 +193,12 @@ div .primeryhead {
 /*CSS for Sponsers*/
 #thirdchild {
   flex-wrap: wrap;
-  /* height: 210px; */ /*unwanted or giving height to parent element may cause  problems like leakedge or overlaying of content*/
+  /* height: 210px; */
+  /*unwanted or giving height to parent element may cause  problems like leakedge or overlaying of content*/
   position: relative;
 
 }
+
 section #sponsers {
   /* height: 100px; */
   /* border: 2px solid red; */
@@ -280,6 +285,7 @@ section .btun02 {
   cursor: pointer;
   background-color: rgb(153, 153, 249);
 }
+
 /*Dont use height and width in px or other format use percentage which help to auto adjust in resopnsive*/
 /*CSS for form*/
 section .text {
@@ -305,6 +311,7 @@ footer h3 {
   text-align: center;
   padding: 10px 10px;
 }
+
 /*Total Three error occurs while making this website responsive
 1. media query not working ( to solve this use differnt id or element to target perticuler object to change its properties)
 2. set height for parrent id or class in pixel which make that element overlay on others to avoide uasge of height property or use this in percentage only
